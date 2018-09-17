@@ -1,0 +1,220 @@
+*{
+	font-family:arial;
+}
+body{
+	background-image: url("images/wallpaper.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+/******************************* INDEX *******************/
+
+#wrap_index{
+	display:flex;
+	flex-direction:column;
+
+}
+
+#map{
+	height:450px;
+	width:900px;
+	margin-left:200px;
+	margin-top:20px;
+	border-radius: 20px;
+
+}
+
+/*********************** HEADER **************************/
+#wrap_header{
+	border: 1px solid black;
+	height:50px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	background-color:rgba(0,0,0,0.8);
+	border-radius: 10px;
+
+
+}
+
+#logo_img{
+	height:20px;
+	width:100px;
+}
+#logo_img:hover{
+	box-shadow: 0 0 20px rgb(231,76,60);
+	cursor:pointer;
+	border-radius: 10px;
+}
+
+#search_header{
+	width: 200px;
+	height : 25px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	font-size: 10px;
+	background-color: white;
+	background-image: url('images/search.png');
+	background-position: 3px 3px;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	display:flex;
+	align-self:center;
+}
+.header_gauche{
+	display:flex;
+	align-self:center;
+
+	width:auto;
+}
+.header_gauche a{
+	margin-left:20px;
+	color:rgb(231,76,60);
+	text-decoration:none;
+
+}
+.header_gauche a:hover{
+	box-shadow:0 0 20px rgb(231,76,60);
+	cursor:pointer;
+	border-radius: 10px;
+}
+
+.logo_header{
+
+	display:flex;
+	align-self:center;
+
+}
+.header_droit{
+
+	width:318px;
+	display:flex;
+	justify-content:space-between;
+}
+#profil_header{
+	display:flex;
+	align-self:center;
+	color:rgb(231,76,60);
+	text-decoration:none;
+	margin-right:20px;
+}
+#profil_header:hover{
+	box-shadow:0 0 20px rgb(231,76,60);
+	cursor:pointer;
+	border-radius: 10px;
+}
+/********************************** Profil ***************************/
+#profil_wrap{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-top:10px;
+
+}
+body p{
+	color:white;
+}
+#profil_gauche{
+	display:flex;
+	flex-direction:column;
+	border:1px solid black;
+	border-radius:10px;
+	background-color:rgba(0,0,0,0.8);
+	width:300px;
+	height:500px;
+
+}
+#profil_gauche_haut img{
+	height:100px;
+	width:100px;
+}
+#profil_gauche_haut{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	margin-top:10px;
+	border: 1px solid rgb(231,76,60);
+}
+
+#profil_gauche_haut p{
+	align-self:center;
+}
+
+#profil_gauche_bas{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	border: 1px solid rgb(231,76,60);
+}
+#profil_gauche_bas p{
+	font-size:20px;
+}
+#profil_gauche_monuments{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+
+
+}
+#profil_gauche_monuments_fils{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	margin-top:10px;
+
+
+
+}
+#profil_gauche_monuments a{
+	text-decoration:none;
+	color:white;
+}
+#profil_gauche_monuments a:hover{
+	color:rgb(231,76,60);
+}
+#profil_gauche_bas p{
+	align-self:center;
+}
+#profil_gauche_bas_texte p{
+	font-size:15px;
+}
+#profil_gauche_bas img{
+	height:70px;
+	width:70px;
+	border-radius:10px;
+}
+#profil_gauche_bas_texte{
+	display:flex;
+	flex-direction:column;
+	margin-top:5px;
+	margin-left:10px;
+}
+
+
+
+#profil_droit{
+	display:flex;
+	flex-direction:column;
+	border:1px solid black;
+	border-radius:10px;
+	background-color:rgba(0,0,0,0.8);
+	width:300px;
+	height:500px;
+
+}
+#profil_droit img{
+	height:50px;
+	width:50px;
+}
+
+
+#profil_centre{
+	display:flex;
+	flex-direction:column;
+	border:1px solid black;
+	border-radius:10px;
+	background-color:rgba(0,0,0,0.8);
+	width:600px;
+
+}
